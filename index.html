@@ -2,32 +2,99 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <title>Comidinhas do Bebê - Feedbacks</title>
-
-  <!-- Meta Pixel Code -->
-  <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1410203447446644'); 
-    fbq('track', 'PageView');
-  </script>
-  <noscript>
-    <img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=1410203447446644&ev=PageView&noscript=1"/>
-  </noscript>
-  <!-- End Meta Pixel Code -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Comidinhas do Bebê</title>
   <style>
-    /* seu CSS aqui */
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 30px;
+      background-color: #fffaf4;
+      color: #333;
+    }
+    h1 {
+      font-size: 28px;
+      margin-top: 20px;
+    }
+    p {
+      font-size: 18px;
+      margin: 15px 0;
+    }
+    .feedbacks img {
+      width: 90%;
+      max-width: 350px;
+      margin: 15px auto;
+      border-radius: 10px;
+      display: block;
+    }
+    .cta a {
+      display: inline-block;
+      margin-top: 30px;
+      background-color: #2ecc71;
+      color: white;
+      padding: 15px 25px;
+      font-size: 20px;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+      transition: background-color 0.3s ease;
+    }
+    .cta a:hover {
+      background-color: #27ae60;
+    }
+    .quote {
+      font-style: italic;
+      font-size: 16px;
+      color: #666;
+      max-width: 500px;
+      margin: 0 auto 30px;
+    }
   </style>
 </head>
 <body>
-  <!-- conteúdo da sua página -->
+
+  <img src="https://i.imgur.com/fTe9iC3.png" alt="Bebê comendo feliz" style="max-width: 150px;" />
+
+  <h1>Seu bebê recusa comida?</h1>
+  <p>Descubra como milhares de mães estão fazendo seus filhos comerem melhor com receitas testadas por nutricionistas.</p>
+
+  <div class="quote">“Meu filho só comia leite. Agora ele adora as papinhas de banana com aveia! Salvou nossa rotina.”</div>
+
+  <p>Resultados reais, elogios sinceros e muito amor envolvido. Veja os feedbacks de quem já comprou:</p>
+
+  <div class="feedbacks">
+    <img src="https://i.imgur.com/j9ybkzV.jpg" alt="Feedback_1">
+    <img src="https://i.imgur.com/f5odpp0.jpg" alt="Feedback_2">
+    <img src="https://i.imgur.com/elF5bfT.jpg" alt="Feedback_3">
+    <img src="https://i.imgur.com/QLjHP1r.jpg" alt="Feedback_4">
+    <img src="https://i.imgur.com/7gpv8fL.jpg" alt="Feedback_5">
+  </div>
+
+  <div class="cta">
+    <a href="https://pay.kiwify.com.br/BfyPzsx?afid=mtKdSqNn" target="_blank">Quero o Guia com Desconto</a>
+  </div>
+
+  <!-- PIXEL FACEBOOK -->
+  <script>
+    !function(f,b,e,v,n,t,s){
+      if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)
+    }(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1410203447446644');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1"
+    src="https://www.facebook.com/tr?id=1410203447446644&ev=PageView&noscript=1"/>
+  </noscript>
+  <!-- /PIXEL -->
+  
 </body>
 </html>
